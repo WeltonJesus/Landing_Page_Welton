@@ -1,0 +1,77 @@
+body {
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    background: url(fundo.png) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+   
+
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: rgb (212, 180, 153)
+}
+main{
+    background: rgb(108 92 237 / 80%);
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius:10px;
+ }
+
+ h3{
+     color: brown;
+ }
+
+
+ .Logo{
+     text-align: center;
+ } 
+ .Sub-name{
+     text-align: left;
+ }
+ .Consultor{
+     text-align: center;
+ }
+
+.btn{
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    font-weight: bold;
+}
+    .btn-1{
+        color: black;
+        background: #acd829;
+        border-radius: 10px;
+        border-bottom: 5px solid #5c7a00;
+        transition: transform 0.5s;
+    }
+    .btn-1:hover{
+        background: #d3ff4e;
+        box-shadow: 0px 0px 20px #d3ff4e;
+        transform: translate(0px, -5px);
+        transition: transform 0.5s;
+    }
+
+    
+
+    .btn-2{
+        color: black;
+        background: #e62113;
+        border-radius: 10px;
+        border-bottom: 5px solid #7a2300;
+        transition: transform 0.5s;
+    }
+    .btn-2:hover{
+        background: #ec3948;
+        box-shadow: 0px 0px 20px #ec3948;
+        transform: translate(0px, -5px);
+        transition: transform 0.5s;
+    }
+
